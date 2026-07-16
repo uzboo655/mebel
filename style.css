@@ -1021,10 +1021,14 @@ footer {
     flex-direction: column;
     box-shadow: -20px 0 50px -20px rgba(0, 0, 0, .35);
     transition: right .3s ease;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .cart-drawer.open {
     right: 0;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .cart-head {
